@@ -395,7 +395,7 @@ function updateManifestFile(manifestPath, applicationClassName) {
             fs.writeFileSync(mainApplicationPath, appfileNew, 'utf8');
 
             // const appFileNew2 = fs.readFileSync(mainApplicationPath, 'utf8')
-            updateManifestFile(manifestPath, applicationClassName);
+            // updateManifestFile(manifestPath, applicationClassName);
             // update configuration file
             const stringsXmlPath = findStringsXml(sourceDir);
             console.log('stringsXmlPath: ' + stringsXmlPath);
@@ -437,7 +437,7 @@ function updateManifestFile(manifestPath, applicationClassName) {
             fs.writeFileSync(mainApplicationPath, appfileNew, 'utf8');
 
             // const appFileNew2 = fs.readFileSync(mainApplicationPath, 'utf8')
-            updateManifestFile(manifestPath, applicationClassName);
+            // updateManifestFile(manifestPath, applicationClassName);
             // update configuration file
             const stringsXmlPath = findStringsXml(sourceDir);
             console.log('stringsXmlPath: ' + stringsXmlPath);
