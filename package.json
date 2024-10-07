@@ -16,6 +16,7 @@
     "postInstall.sh"
   ],
   "scripts": {
+    "run":"npm run postinstall",
     "postinstall": "postInstall.sh"
   },
   "repository": {
